@@ -1,6 +1,7 @@
 body{
 	background-color: #34aa33;
+	/*background: radial-gradient(ellipse,#3366cc,#333399);*/
 }
 body:hover{
-	background-color: #aa3433;
+	background-color: #3371aa;
 }
