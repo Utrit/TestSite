@@ -50,9 +50,10 @@ font-family: arial;
 -moz-transition: all 0.3s 0.01s ease;
 -o-transition: all 0.3s 0.01s ease;
 -webkit-transition: all 0.3s 0.01s ease;
-  border-radius:10px;
+  border-radius:0px;
 }
 #header a:hover {
+	  border-radius:10px;
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	padding: 15px 25px;
 	background: #55d113;
