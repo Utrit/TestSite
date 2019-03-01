@@ -20,17 +20,42 @@ body:hover{
 	box-shadow: 0 0 35px rgba(0,0,0,0.5);
 	margin-top: -10;
 	margin-left: 10%;
+	padding-top: 20;
 	position: absolute;
   background: radial-gradient(ellipse,#03a762,#06965a);
 	width: 80%;
-	height: 5%;
+	height: 50px;
+	overflow: hidden;
 }
-#link{
-	box-shadow: 0 0 35px rgba(0,0,0,0.5);
-	background: radial-gradient(ellipse,#e7e7e7,#06965a);
-	width: 10%;
-	margin-left: 3;
-	margin-top: 6;
-	position:
-	height: 80%;
+ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 30px;
+	text-align: center;
+}
+#header li{
+	display: inline;
+	margin-left: 20px;
+}
+#header a{
+font-size: 18;
+box-shadow: 0 0 15px rgba(0,0,0,0.5);
+position:inherit;
+text-decoration: none;
+text-align:center;
+background: radial-gradient(ellipse,#4ab312,#06965a);
+color:#000000;
+padding: 10px 20px;
+font-family: arial;
+-moz-transition: all 0.3s 0.01s ease;
+-o-transition: all 0.3s 0.01s ease;
+-webkit-transition: all 0.3s 0.01s ease;
+  border-radius:10px;
+}
+#header a:hover {
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	padding: 15px 25px;
+	background: #55d113;
+	color:#3b3b3b;
+	font-size:20;
 }
