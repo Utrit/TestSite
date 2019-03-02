@@ -8,9 +8,9 @@ body:hover{
 	background-color: #3371aa;
 }
 #main{
-	margin-top: -10;
+	margin-top: 50px;
 	position:absolute;
-	background: radial-gradient(ellipse,#e7e7e7,#c3c3c3);
+	background: radial-gradient(ellipse,#e7e7e7,#959595);
 	height: 110%;
 	width: 80%;
 	margin-left: 10%;
