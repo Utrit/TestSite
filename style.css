@@ -1,5 +1,4 @@
 body{
-	/*background-color: #34aa33;*/
 	background: radial-gradient(ellipse,#ccaa33,#997333);
 	overflow: hidden;
 	position: relative;
@@ -40,13 +39,11 @@ ul{
 #header a{
 font-size: 18;
 box-shadow: 0 0 15px rgba(0,0,0,0.5);
-position:inherit;
 text-decoration: none;
 text-align:center;
 background: radial-gradient(ellipse,#4ab312,#06965a);
 color:#000000;
 padding: 10px 20px;
-font-family: arial;
 -moz-transition: all 0.3s 0.01s ease;
 -o-transition: all 0.3s 0.01s ease;
 -webkit-transition: all 0.3s 0.01s ease;
