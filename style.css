@@ -72,10 +72,12 @@ height: 30%;
 	background: radial-gradient(ellipse,#ebe6d7,#aba692);
 }
 #MainText {
-	font-size: 20;
-	color: #a83867;
+	font-size: 23;
+	color: #0f0f0d;
 	width: 97.5%;
 	height: 52%;
+	text-align: center;
+	text-decoration: none;
 }
 #Author a{
 	color: #000000;
