@@ -1,16 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
 body{
 	background: radial-gradient(ellipse,#ccaa33,#997333);
 	overflow: hidden;
 	position: relative;
+  font-family: 'Playfair Display SC', serif;
 }
-body:hover{
-	background-color: #3371aa;
+a{
+		font-size: 20px;
+	  color: #805d29;
+		text-decoration: none;
 }
 #main{
 	margin-top: 50px;
 	position:absolute;
-	background: radial-gradient(ellipse,#ebe6d7,#aba692);
-	height: 110%;
+	background:#ebe6d7;
+	height: 106%;
 	width: 80%;
 	margin-left: 10%;
 	box-shadow: 0 0 35px rgba(0,0,0,0.5);
@@ -62,11 +66,10 @@ width: 95%;
 height: 30%;
 }
 .TextDiv{
-	box-shadow: 0 0 15px rgba(0,0,0,0.5);
 	padding-left: 2.5%;
 	padding-top: 1%;
 	overflow: auto;
-	background: radial-gradient(ellipse,#ebe6d7,#aba692);
+	background: #ebe6d7;
 }
 #MainText {
 	font-size: 23;
@@ -99,7 +102,7 @@ height: 30%;
 }
 #Author {
 	padding-left: 45%;
-	height: 5%;
+	height: 7%;
 	background: #aba692;
 	background: radial-gradient(ellipse,#03a762,#06965a);
 }
